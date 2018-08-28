@@ -27,7 +27,7 @@ var responseSchema = new Schema({
   desktopIsSlow: Number, // 17. The desktop web is typically slow and sluggish
   a11yImportance: Number, // 18. Accessibility is an important concern in my web development
   mobileIsSlow: Number, // 19. The mobile web is typically slow and sluggish
-  dislikeAds, // 20. I dislike ads on the web
+  dislikeAds: Number, // 20. I dislike ads on the web
   optimisticPWA: Number, // 21. I am optimistic about the future of progressive web apps
   AIImpactsWeb: Number, // 22. Artificial intelligence advancements are having a big impact on the web
   satisifiedWithLibraryChoice: Number, // 23. I am satisfied with the development libraries my team and I use

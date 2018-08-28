@@ -1,3 +1,4 @@
 {
-  "databaseUrl": "mongodb://localhost:27017/sotw"
+  "databaseUrl": "mongodb://localhost:27017/sotw",
+  "dataFileName": "./data/State+Of+The+Web+Survey+Results.csv"
 }

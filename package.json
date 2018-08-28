@@ -4,7 +4,8 @@
   "description": "Analysis of the State of the Web survey data supplied by dev.to.",
   "main": "index.js",
   "scripts": {
-    "load": "node ./task/load.js"
+    "load": "node ./task/load.js",
+    "lint": "npx semistandard --fix"
   },
   "repository": {
     "type": "git",
