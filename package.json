@@ -1,0 +1,24 @@
+{
+  "name": "sotw_data_analysis",
+  "version": "1.0.0",
+  "description": "Analysis of the State of the Web survey data supplied by dev.to.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sfrieson/sotw_data_analysis.git"
+  },
+  "keywords": [
+    "State of the Web",
+    "data analysis",
+    "dev.to"
+  ],
+  "author": ["amyyf", sfrieson"],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sfrieson/sotw_data_analysis/issues"
+  },
+  "homepage": "https://github.com/sfrieson/sotw_data_analysis#readme"
+}
