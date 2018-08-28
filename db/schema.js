@@ -1,5 +1,8 @@
 var mongoose = require('mongoose');
+require('./'); // this gets index.js - index is the default of the dir, js is implied
 var Schema = mongoose.Schema;
+
+Schema.Types.Boolean.convertToFalse.add('');
 
 var responseSchema = new Schema({
   // All of the question responses
@@ -9,7 +12,7 @@ var responseSchema = new Schema({
   technologies: [String], // 2. Which of the following technologies have you made use of?
   appAge: String, // 3. How old are the apps you frequently work on?
 
-  connectionSpeed: Number, // TODO Better type | 4. What is your typical Internet connection speed? (Select)
+  connectionSpeed: String, // TODO Better type | 4. What is your typical Internet connection speed? (Select)
 
   // (Answers 1-10)
   webOutpacingNative: Number, // 5. Web innovation is outpacing native
@@ -50,7 +53,7 @@ var responseSchema = new Schema({
   backEndUnit: Boolean, // 36. Does your team write code tests for back-end code?
   TDD: Boolean, // 37. Do you typically practice test-driven-development?
 
-  age: Number, // TODO better type | 38. What is your age? (Range)
+  age: String, // TODO better type | 38. What is your age? (Range)
   experience: Number, // 39. How long have you been working in software (in years)
   mobileOS: String, // 40. Which mobile device ecosystem you use for personal use?
   gender: String, // 41. What is your gender identity?
