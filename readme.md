@@ -17,3 +17,8 @@ Here are a few otherwise unlisted dependencies:
 ## Data Clean-up
 
 In order to convert the data to JSON, we had to manually modify the CSV file. For survey questions where multiple answers could be selected, the column header was identical, so answers were getting overwritten for people who had entered multiple responses. We modified the column number by adding letters (2.a, 2.b, 2.c, etc.) so each question and response would display.
+
+
+## To Do
+
+- write a script to do the data clean up explained above so others won't have to when they pull down this repo and the dataset.
