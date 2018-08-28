@@ -4,7 +4,7 @@
   "description": "Analysis of the State of the Web survey data supplied by dev.to.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "load": "node ./task/load.js"
   },
   "repository": {
     "type": "git",
@@ -15,10 +15,20 @@
     "data analysis",
     "dev.to"
   ],
-  "author": ["amyyf", sfrieson"],
+  "author": [
+    "amyyf",
+    "sfrieson"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sfrieson/sotw_data_analysis/issues"
   },
-  "homepage": "https://github.com/sfrieson/sotw_data_analysis#readme"
+  "homepage": "https://github.com/sfrieson/sotw_data_analysis#readme",
+  "dependencies": {
+    "csv": "^3.1.0",
+    "mongoose": "^5.2.10"
+  },
+  "devDependencies": {
+    "semistandard": "^12.0.1"
+  }
 }
