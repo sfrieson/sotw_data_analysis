@@ -16,9 +16,9 @@
     "data analysis",
     "dev.to"
   ],
-  "author": [
-    "amyyf",
-    "sfrieson"
+  "contributors": [
+    {"name": "Amy Frieson", "url": "https://amyfrieson.com"},
+    {"name": "Steven Frieson", "url": "http://stevenfrieson.com"}
   ],
   "license": "MIT",
   "bugs": {
