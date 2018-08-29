@@ -1,3 +1,8 @@
+/*
+Comparing developers who use service workers to those who don't, how optimistic is each group about
+the future of progressive web apps?
+*/
+
 const Data = require('../db/schema');
 
 Data.find({technologies: 'Service Workers'}, 'optimisticPWA')
