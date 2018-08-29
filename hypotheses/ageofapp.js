@@ -15,20 +15,22 @@ Data.find({}, 'appAge')
       eightAndUp: 0
     };
     results.forEach(result => {
-      switch (result[0]) {
-        case 'Less than 1 year':
-          counts.lessThanOne++;
-          break;
-        case '1-3 years':
-          counts.oneToThree++;
-          break;
-        case '3-8 years':
-          counts.threeToEight++;
-          break;
-        case 'More than 8 years':
-          counts.eightAndUp++;
-          break;
-      }
+      result.forEach(timePeriod => {
+        switch (timePeriod) {
+          case 'Less than 1 year':
+            counts.lessThanOne++;
+            break;
+          case '1-3 years':
+            counts.oneToThree++;
+            break;
+          case '3-8 years':
+            counts.threeToEight++;
+            break;
+          case 'More than 8 years':
+            counts.eightAndUp++;
+            break;
+        }
+      });
     });
     console.log(counts);
   });

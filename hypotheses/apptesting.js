@@ -95,7 +95,7 @@ Data.find({})
     results.eightAndUp.TDD = results.eightAndUp.TDD / results.eightAndUp.total;
     return results;
   })
-  .then(results => console.log(results))
+  .then(results => console.log(results));
 
 //   .then(results => {
 //     const counts = {
