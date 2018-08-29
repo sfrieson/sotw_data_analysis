@@ -7,8 +7,6 @@ const Data = require('../db/schema');
 
 Data.find({}, 'appAge')
   .then(results => results.map(result => result.appAge ? result.appAge.filter((el) => el !== '(blank)') : []))
-  // following line can be uncommented to filter out people with multiple responses
-  // .then(results => results.filter((el) => el.length === 1))
   .then(results => {
     const counts = {
       lessThanOne: 0,
