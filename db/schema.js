@@ -10,7 +10,7 @@ var responseSchema = new Schema({
 
   // (Multi-choice)
   technologies: [String], // 2. Which of the following technologies have you made use of?
-  appAge: String, // 3. How old are the apps you frequently work on?
+  appAge: [String], // 3. How old are the apps you frequently work on?
 
   connectionSpeed: String, // TODO Better type | 4. What is your typical Internet connection speed? (Select)
 
